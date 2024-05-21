@@ -1,0 +1,17 @@
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\bin\Debug\net6.0-windows7.0\UrfuProject.exe
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\bin\Debug\net6.0-windows7.0\UrfuProject.deps.json
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\bin\Debug\net6.0-windows7.0\UrfuProject.runtimeconfig.json
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\bin\Debug\net6.0-windows7.0\UrfuProject.dll
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\bin\Debug\net6.0-windows7.0\UrfuProject.pdb
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\UrfuProject.Form1.resources
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\UrfuProject.csproj.GenerateResource.cache
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\UrfuProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\UrfuProject.AssemblyInfoInputs.cache
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\UrfuProject.AssemblyInfo.cs
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\UrfuProject.csproj.CoreCompileInputs.cache
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\UrfuProject.sourcelink.json
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\UrfuProject.dll
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\refint\UrfuProject.dll
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\UrfuProject.pdb
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\UrfuProject.genruntimeconfig.cache
+C:\Users\hoptd\Downloads\final 1\UrfuProject\UrfuProject\obj\Debug\net6.0-windows7.0\ref\UrfuProject.dll
