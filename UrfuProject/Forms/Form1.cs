@@ -17,7 +17,6 @@ namespace UrfuProject
             this.GameTimer.Tick += game.MovementController.OnMove;
             this.Paint += game.FrameController.UpdateFrame;
             this.KeyDown += game.MovementController.OnKeyDown;
-            this.KeyUp += game.MovementController.OnKeyUp;
         }
 
         private void Form1_Load(object sender, EventArgs e)

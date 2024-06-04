@@ -12,15 +12,6 @@ namespace UrfuProject.Controllers
     {
         private static int _boost;
 
-        private static int _acc { get; set; } = 0;
-
-        public static int Boost {
-            get => _boost; 
-            set {
-                _boost = value < 0 ? 0 : value;
-                Program.Game.Form.Text = $"Управление стрелками. Ускорение/Замедление - CTRL/SHIFT. Ускорение = {_boost}";
-            }}
-
         public MovementController(Game game) : base(game)
         { }
 
@@ -39,14 +30,6 @@ namespace UrfuProject.Controllers
                     break;
                 case Keys.Down:
                     _snake.ChangeAngle(1, Math.PI / 2, 3*Math.PI/2);
-                    break;
-                case Keys.ControlKey:
-                    Boost += 1 + _acc;
-                    _acc++;
-                    break;
-                case Keys.ShiftKey:
-                    Boost -= (1+_acc);
-                    _acc++;
                     break;
                 default:
                     return;
@@ -68,12 +51,6 @@ namespace UrfuProject.Controllers
             }
 
             _game.Form.Invalidate();
-        }
-
-        internal void OnKeyUp(object? sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.ShiftKey || e.KeyCode == Keys.ControlKey)
-                _acc = 0;
         }
     }
 }

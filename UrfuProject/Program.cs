@@ -11,7 +11,7 @@ namespace UrfuProject
         [STAThread]
         static void Main()
         {
-            double angle = Math.PI/18;
+            double angle = Math.PI/10;
 
             Game = new Game(angle);
             Form1 form = new Form1(Game);

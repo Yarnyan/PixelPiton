@@ -61,31 +61,31 @@ namespace UrfuProject.Models
 
         internal void ChangeAngle(int kstep, double? angle1 = null, double? angle2 = null)
         {
-            var angle = AdjustAngle(_direction.Angle, stepAngle * kstep * MovementController.Boost, 0, 2*Math.PI, angle1, angle2);
+            var angle = AdjustAngle(_direction.Angle, stepAngle * kstep, 0, 2 * Math.PI, angle1, angle2);
 
-            if (angle < 0) angle = 2*Math.PI + angle;
+            if (angle < 0) angle = 2 * Math.PI + angle;
 
-            _direction = new Direction(Math.Cos(angle) * move, Math.Sin(angle) * move, angle);
+            _direction = new Direction(Math.Cos(angle)*move, Math.Sin(angle)*move, angle);
         }
 
         private double AdjustAngle(double angle, double step, double minAngle, double maxAngle, double? angle1 = null, double? angle2 = null)
         {
-            if (angle >= maxAngle) angle = angle-2*Math.PI;
+            if (angle >= maxAngle) angle = angle - 2*Math.PI;
 
-            var newAngle = angle;
+            double newAngle = angle;
 
             if (angle1.HasValue && angle2.HasValue)
             {
-                if ((angle < angle1 && angle >= 0) || (angle <= maxAngle && angle > angle2)) newAngle += step;
+                if ((angle < angle1 && angle >= 0) || (angle < maxAngle && angle > angle2)) newAngle += step;
                 else if (angle < angle2 && angle > angle1) newAngle -= step;
             }
             else
             {
-                if (angle <= Math.PI && angle > 0) newAngle -= step;
-                else if (angle <= 2*Math.PI && angle > Math.PI) newAngle += step;
+                if (angle < Math.PI && angle > 0) newAngle -= step;
+                else if (angle < 2 * Math.PI && angle > Math.PI) newAngle += step;
             }
-            var a = (Math.Truncate(newAngle / Math.PI)) * Math.PI;
-            return newAngle - a;
+
+            return newAngle;
         }
     }
 }

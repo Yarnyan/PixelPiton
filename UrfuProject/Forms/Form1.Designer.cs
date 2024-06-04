@@ -41,12 +41,12 @@ namespace UrfuProject
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 16F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(646, 404);
+            ClientSize = new Size(646, 379);
             MaximizeBox = false;
             Name = "Form1";
-            Text = "Змейка. Управление стрелочками. Ускорение/Замедление - CTRL/SHIFT.";
+            Text = "Змейка. Управление стрелочками";
             Load += Form1_Load;
             ResumeLayout(false);
         }
